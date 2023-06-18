@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+dt:first-child{
+	background-color: black;
+	color: white;
+}
+dt:last-child{
+	color: red;
+}
+
+li:nth-child(odd){
+	background-color: white;
+}
+li:nth-child(3){
+	background-color: pink;
+}
+li:nth-child(even){
+	background-color: slategray;
+}
+body{
+	background-color: skyblue;
+}
